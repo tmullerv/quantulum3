@@ -7,6 +7,7 @@
 import json
 import logging
 import pkg_resources
+import numpy
 
 # Semi-dependencies
 try:
@@ -124,10 +125,10 @@ def train_classifier(parameters=None,
     tfidf_model = TfidfVectorizer(
         sublinear_tf=True,
         ngram_range=ngram_range,
-        stop_words=_get_classifier(lang).stop_words()
+        stop_words=_get_classifier(lang).stop_words(),
     )
 
-    matrix = tfidf_model.fit_transform(train_data)
+    matrix = tfidf_model.fit_transform(numpy.array(train_data))
 
     if parameters is None:
         parameters = {
