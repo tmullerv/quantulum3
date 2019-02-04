@@ -7,6 +7,8 @@
 import json
 import logging
 import pkg_resources
+from math import inf
+import numpy
 
 # Semi-dependencies
 try:
@@ -124,7 +126,8 @@ def train_classifier(parameters=None,
     tfidf_model = TfidfVectorizer(
         sublinear_tf=True,
         ngram_range=ngram_range,
-        stop_words=_get_classifier(lang).stop_words())
+        stop_words=_get_classifier(lang).stop_words()
+    )
 
     matrix = tfidf_model.fit_transform(train_data)
 
@@ -133,6 +136,7 @@ def train_classifier(parameters=None,
             'loss': 'log',
             'penalty': 'l2',
             'max_iter': 50,
+            'tol': -inf,
             'alpha': 0.00001,
             'fit_intercept': True
         }
@@ -204,6 +208,7 @@ def disambiguate_entity(key, text, lang='en_US'):
     Resolve ambiguity between entities with same dimensionality.
     """
 
+    new_ent = next(iter(load.entities(lang).derived[key]))
     if len(load.entities().derived[key]) > 1:
         transformed = classifier(lang).tfidf_model.transform(
             [clean_text(text)])
@@ -221,8 +226,6 @@ def disambiguate_entity(key, text, lang='en_US'):
             new_ent = load.entities(lang).names[scores[0][1]]
         except IndexError:
             logging.debug('\tAmbiguity not resolved for "%s"', str(key))
-    else:
-        new_ent = next(iter(load.entities(lang).derived[key]))
 
     return new_ent
 
