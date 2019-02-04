@@ -7,8 +7,6 @@
 import json
 import logging
 import pkg_resources
-from math import inf
-import numpy
 
 # Semi-dependencies
 try:
@@ -136,7 +134,7 @@ def train_classifier(parameters=None,
             'loss': 'log',
             'penalty': 'l2',
             'max_iter': 50,
-            'tol': -inf,
+            'tol': float("-inf"),
             'alpha': 0.00001,
             'fit_intercept': True
         }
