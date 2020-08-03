@@ -112,7 +112,7 @@
     "URI": "milimetro_cubico",
     "dimensions": [
       {
-        "base": "millimetro",
+        "base": "milimetro",
         "power": 3
       }
     ],
@@ -161,6 +161,55 @@
     "symbols": [
       "cl",
       "cL"
+    ]
+  },
+  {
+    "name": "metro",
+    "surfaces": [
+      "metro"
+    ],
+    "entity": "longitud",
+    "URI": "Metro",
+    "dimensions": [],
+    "symbols": [
+      "m",
+      "M"
+    ]
+  },
+  {
+    "name": "decimetro",
+    "surfaces": [
+      "decimetro"
+    ],
+    "entity": "longitud",
+    "URI": "Decimetro",
+    "dimensions": [],
+    "symbols": [
+      "dm"
+    ]
+  },
+  {
+    "name": "centimetro",
+    "surfaces": [
+      "centimetro"
+    ],
+    "entity": "longitud",
+    "URI": "Centimetro",
+    "dimensions": [],
+    "symbols": [
+      "cm"
+    ]
+  },
+  {
+    "name": "milimetro",
+    "surfaces": [
+      "milimetro"
+    ],
+    "entity": "longitud",
+    "URI": "Milimetro",
+    "dimensions": [],
+    "symbols": [
+      "mm"
     ]
   }
 ]
