@@ -1,0 +1,166 @@
+[
+  {
+    "name": "kilogramo",
+    "surfaces": [
+      "kilogramo",
+      "kilogram",
+      "kilo",
+      "kg",
+      "kgs"
+    ],
+    "entity": "masa",
+    "URI": "Kilogram",
+    "dimensions": [],
+    "symbols": [
+      "kg"
+    ]
+  },
+  {
+    "name": "gramo",
+    "surfaces": [
+      "gramo",
+      "gram"
+    ],
+    "entity": "mass",
+    "URI": "Gramo",
+    "dimensions": [],
+    "symbols": [
+      "g",
+      "gm"
+    ]
+  },
+  {
+    "name": "miligramo",
+    "surfaces": [
+      "miligramo",
+      "milligramo"
+    ],
+    "entity": "masa",
+    "URI": "Gramo",
+    "dimensions": [],
+    "symbols": [
+      "mg"
+    ]
+  },
+  {
+    "name": "microgramo",
+    "surfaces": [
+      "microgramo",
+      "microgram"
+    ],
+    "entity": "masa",
+    "URI": "Microgramo",
+    "dimensions": [],
+    "symbols": [
+      "µg",
+      "mcg"
+    ]
+  },
+  {
+    "name": "metro cubico",
+    "surfaces": [
+      "metro cubico",
+      "metro cúbico",
+      "kilolitro",
+      "kilolitre"
+    ],
+    "entity": "volumen",
+    "URI": "Metro_cubico",
+    "dimensions": [
+      {
+        "base": "metro",
+        "power": 3
+      }
+    ],
+    "symbols": [
+      "m3",
+      "kL"
+    ]
+  },
+  {
+    "name": "centimetro cubico",
+    "surfaces": [
+      "centimetro cubico",
+      "centimetro cúbico",
+      "centímetro cúbico",
+      "mililitro"
+    ],
+    "entity": "volumen",
+    "URI": "Centimetro_cubico",
+    "dimensions": [
+      {
+        "base": "centimetro",
+        "power": 3
+      }
+    ],
+    "symbols": [
+      "cc",
+      "cm3",
+      "mL",
+      "ml"
+    ]
+  },
+  {
+    "name": "milimetro cubico",
+    "surfaces": [
+      "milimetro cubico",
+      "milímetro cubico",
+      "milímetro cúbico",
+      "microlitro"
+    ],
+    "entity": "volumen",
+    "URI": "milimetro_cubico",
+    "dimensions": [
+      {
+        "base": "millimetro",
+        "power": 3
+      }
+    ],
+    "symbols": [
+      "µl",
+      "µL"
+    ]
+  },
+  {
+    "name": "litro",
+    "surfaces": [
+      "decímetro cúbico",
+      "decímetro cubico",
+      "decimetro cubico",
+      "litro"
+    ],
+    "entity": "volumen",
+    "URI": "Litro",
+    "dimensions": [
+      {
+        "base": "decimetro",
+        "power": 3
+      }
+    ],
+    "symbols": [
+      "l",
+      "L",
+      "ltr",
+      "ℓ"
+    ]
+  },
+  {
+    "name": "centilitro",
+    "surfaces": [
+      "centilitro",
+      "centílitro"
+    ],
+    "entity": "volumen",
+    "URI": "Centilitro",
+    "dimensions": [
+      {
+        "base": "centilitro",
+        "power": 3
+      }
+    ],
+    "symbols": [
+      "cl",
+      "cL"
+    ]
+  }
+]

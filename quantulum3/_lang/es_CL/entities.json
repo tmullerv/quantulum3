@@ -1,0 +1,27 @@
+[ 
+    {
+     "name": "adimensional",
+     "dimensions": [],
+     "URI": "Magnitud_adimensional"
+    },
+    {
+     "name": "longitud",
+     "dimensions": [],
+     "URI": "Longitud"
+    },
+    {
+     "name": "masa",
+     "dimensions": [],
+     "URI": "Masa"
+    },
+    {
+     "name": "moneda",
+     "dimensions": [],
+     "URI": "Moneda"
+    },
+    {
+        "name": "volumen",
+        "dimensions": [],
+        "URI": "Volumen"
+    }
+]

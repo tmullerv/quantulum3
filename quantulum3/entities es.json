@@ -1,0 +1,834 @@
+[
+  {
+    "name": "adimensional",
+    "dimensions": [],
+    "URI": "Magnitud_adimensionall"
+  },
+  {
+    "name": "longitud",
+    "dimensions": [],
+    "URI": "Longitud"
+  },
+  {
+    "name": "masa",
+    "dimensions": [],
+    "URI": "Masa"
+  },
+  {
+    "name": "moneda",
+    "dimensions": [],
+    "URI": "Moneda"
+  },
+  {
+    "name": "tiempo",
+    "dimensions": [],
+    "URI": "Tiempo"
+  },
+  {
+    "name": "temperatura",
+    "dimensions": [],
+    "URI": "Temperatura"
+  },
+  {
+    "name": "carga",
+    "dimensions": [],
+    "URI": "Carga_(fisica)"
+  },
+  {
+    "name": "angulo",
+    "dimensions": [],
+    "URI": "Angulo"
+  },
+  {
+    "name": "memoria",
+    "dimensions": [],
+    "URI": "Memoria_(informatica)"
+  },
+  {
+    "name": "cantidad de sustancia",
+    "dimensions": [],
+    "URI": "Cantidad_de_sustancia"
+  },
+  {
+    "name": "actividad catalitica",
+    "dimensions": [
+      {
+        "base": "cantidad de sustancia",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Catalisis"
+  },
+  {
+    "name": "area",
+    "dimensions": [
+      {
+        "base": "longitud",
+        "power": 2
+      }
+    ],
+    "URI": "Area"
+  },
+  {
+    "name": "volumen",
+    "dimensions": [
+      {
+        "base": "longitud",
+        "power": 3
+      }
+    ],
+    "URI": "volumen"
+  },
+  {
+    "name": "fuerza",
+    "dimensions": [
+      {
+        "base": "masa",
+        "power": 1
+      },
+      {
+        "base": "aceleracion",
+        "power": 1
+      }
+    ],
+    "URI": "Fuerza"
+  },
+  {
+    "name": "presion",
+    "dimensions": [
+      {
+        "base": "fuerza",
+        "power": 1
+      },
+      {
+        "base": "area",
+        "power": -1
+      }
+    ],
+    "URI": "Presion"
+  },
+  {
+    "name": "energia",
+    "dimensions": [
+      {
+        "base": "fuerza",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": 1
+      }
+    ],
+    "URI": "Energia"
+  },
+  {
+    "name": "potencia",
+    "dimensions": [
+      {
+        "base": "energia",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Potencia_(fisica)"
+  },
+  {
+    "name": "velocidad",
+    "dimensions": [
+      {
+        "base": "longitud",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Velocidad"
+  },
+  {
+    "name": "aceleracion",
+    "dimensions": [
+      {
+        "base": "velocidad",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Aceleracion"
+  },
+  {
+    "name": "velocidad angular",
+    "dimensions": [
+      {
+        "base": "angulo",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Velocidad angular"
+  },
+  {
+    "name": "aceleracion angular",
+    "dimensions": [
+      {
+        "base": "velocidad angular",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Aceleracion_angular"
+  },
+  {
+    "name": "densidad",
+    "dimensions": [
+      {
+        "base": "masa",
+        "power": 1
+      },
+      {
+        "base": "volumen",
+        "power": -1
+      }
+    ],
+    "URI": "Densidad"
+  },
+  {
+    "name": "volumen especifico",
+    "dimensions": [
+      {
+        "base": "volumen",
+        "power": 1
+      },
+      {
+        "base": "masa",
+        "power": -1
+      }
+    ],
+    "URI": "Volumen_especifico"
+  },
+  {
+    "name": "momento de inercia",
+    "dimensions": [
+      {
+        "base": "masa",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": 2
+      }
+    ],
+    "URI": "Momento_de_inercia"
+  },
+  {
+    "name": "torque",
+    "dimensions": [
+      {
+        "base": "fuerza",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": 1
+      }
+    ],
+    "URI": "Torque"
+  },
+  {
+    "name": "resistencia termica",
+    "dimensions": [
+      {
+        "base": "temperatura",
+        "power": 1
+      },
+      {
+        "base": "potencia",
+        "power": -1
+      }
+    ],
+    "URI": "Resistencia_termica"
+  },
+  {
+    "name": "conductividad termica",
+    "dimensions": [
+      {
+        "base": "potencia",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": -1
+      },
+      {
+        "base": "temperatura",
+        "power": -1
+      }
+    ],
+    "URI": "Conductividad termica"
+  },
+  {
+    "name": "calor especifico",
+    "dimensions": [
+      {
+        "base": "energia",
+        "power": 1
+      },
+      {
+        "base": "masa",
+        "power": -1
+      },
+      {
+        "base": "temperatura",
+        "power": -1
+      }
+    ],
+    "URI": "Calor especifico"
+  },
+  {
+    "name": "flujo volumetrico",
+    "dimensions": [
+      {
+        "base": "volumen",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Flujo_volumetrico"
+  },
+  {
+    "name": "gasto masico",
+    "dimensions": [
+      {
+        "base": "masa",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "gasto_masico"
+  },
+  {
+    "name": "concentracion",
+    "dimensions": [
+      {
+        "base": "masa",
+        "power": 1
+      },
+      {
+        "base": "volumen",
+        "power": -1
+      }
+    ],
+    "URI": "Concentracion"
+  },
+  {
+    "name": "viscosidad dinamica",
+    "dimensions": [
+      {
+        "base": "presion",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": 1
+      }
+    ],
+    "URI": "Viscosidad"
+  },
+  {
+    "name": "viscosidad cinematica",
+    "dimensions": [
+      {
+        "base": "area",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Viscosidad"
+  },
+  {
+    "name": "fluidez",
+    "dimensions": [
+      {
+        "base": "tiempo",
+        "power": -1
+      },
+      {
+        "base": "area",
+        "power": 1
+      }
+    ],
+    "URI": "Viscosidad"
+  },
+  {
+    "name": "tension superficial",
+    "dimensions": [
+      {
+        "base": "fuerza",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": -1
+      }
+    ],
+    "URI": "Tension_superficial"
+  },
+  {
+    "name": "permeabilidad",
+    "dimensions": [
+      {
+        "base": "masa",
+        "power": 1
+      },
+      {
+        "base": "presion",
+        "power": -1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      },
+      {
+        "base": "area",
+        "power": -1
+      }
+    ],
+    "URI": "Permeabilidad"
+  },
+  {
+    "name": "intensidad de sonido",
+    "dimensions": [],
+    "URI": "Intensidad_de_sonido"
+  },
+  {
+    "name": "intensidad luminosa",
+    "dimensions": [],
+    "URI": "Intensidad_luminosa"
+  },
+  {
+    "name": "flujo luminoso",
+    "dimensions": [],
+    "URI": "Flujo_luminoso"
+  },
+  {
+    "name": "emitancia luminosa",
+    "dimensions": [],
+    "URI": "Emitancia_luminosa"
+  },
+  {
+    "name": "luminancia",
+    "dimensions": [
+      {
+        "base": "intensidad luminosa",
+        "power": 1
+      },
+      {
+        "base": "area",
+        "power": -1
+      }
+    ],
+    "URI": "Luminancia"
+  },
+  {
+    "name": "elemento tipografico",
+    "dimensions": [],
+    "URI": "Tipografia"
+  },
+  {
+    "name": "Resolucion de imagen",
+    "dimensions": [
+      {
+        "base": "typographical element",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": -1
+      }
+    ],
+    "URI": "Resolucion_de_imagen"
+  },
+  {
+    "name": "frequencia",
+    "dimensions": [
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Frequencia"
+  },
+  {
+    "name": "densidad de flujo",
+    "dimensions": [
+      {
+        "base": "power",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": -2
+      },
+      {
+        "base": "frequency",
+        "power": -1
+      }
+    ],
+    "URI": "Flujo"
+  },
+  {
+    "name": "densidad lineal de masa",
+    "dimensions": [
+      {
+        "base": "masa",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": -1
+      }
+    ],
+    "URI": "Densidad_lineal"
+  },
+  {
+    "name": "densidad lineal de carga",
+    "dimensions": [
+      {
+        "base": "carga",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": -1
+      }
+    ],
+    "URI": "Densidad_lineal"
+  },
+  {
+    "name": "densidad de carga superficial",
+    "dimensions": [
+      {
+        "base": "carga",
+        "power": 1
+      },
+      {
+        "base": "area",
+        "power": -1
+      }
+    ],
+    "URI": "Densidad_superficial"
+  },
+  {
+    "name": "densidad de carga",
+    "dimensions": [
+      {
+        "base": "carga",
+        "power": 1
+      },
+      {
+        "base": "volumen",
+        "power": -1
+      }
+    ],
+    "URI": "Densidad_de_carga_electrica"
+  },
+  {
+    "name": "corriente",
+    "dimensions": [
+      {
+        "base": "carga",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Corriente_electrica"
+  },
+  {
+    "name": "densidad de corriente lineal",
+    "dimensions": [
+      {
+        "base": "corriente",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": -1
+      }
+    ],
+    "URI": "Densidad_de_corriente"
+  },
+  {
+    "name": "densidad de corriente superficial",
+    "dimensions": [
+      {
+        "base": "corriente",
+        "power": 1
+      },
+      {
+        "base": "area",
+        "power": -1
+      }
+    ],
+    "URI": "Densidad_de_corriente"
+  },
+  {
+    "name": "potencial electrico",
+    "dimensions": [
+      {
+        "base": "energia",
+        "power": 1
+      },
+      {
+        "base": "carga",
+        "power": -1
+      }
+    ],
+    "URI": "Potencial_electrico"
+  },
+  {
+    "name": "campo electrico",
+    "dimensions": [
+      {
+        "base": "potencial electrico",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": -1
+      }
+    ],
+    "URI": "Campo electrico"
+  },
+  {
+    "name": "resistencia electrica",
+    "dimensions": [
+      {
+        "base": "potencial electrico",
+        "power": 1
+      },
+      {
+        "base": "corriente",
+        "power": -1
+      }
+    ],
+    "URI": "Resistencia_electrica"
+  },
+  {
+    "name": "resistividad electrica",
+    "dimensions": [
+      {
+        "base": "resistencia electrica",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": 1
+      }
+    ],
+    "URI": "Resistividad"
+  },
+  {
+    "name": "conductancia electrica",
+    "dimensions": [
+      {
+        "base": "resistencia electrica",
+        "power": -1
+      }
+    ],
+    "URI": "Conductancia_electrica"
+  },
+  {
+    "name": "conductividad electrica",
+    "dimensions": [
+      {
+        "base": "resistividad electrica",
+        "power": -1
+      }
+    ],
+    "URI": "Conductividad_electrica"
+  },
+  {
+    "name": "capacitancia",
+    "dimensions": [
+      {
+        "base": "energia",
+        "power": 1
+      },
+      {
+        "base": "potencial electrico",
+        "power": -2
+      }
+    ],
+    "URI": "Capacidad electrica"
+  },
+  {
+    "name": "inductancia",
+    "dimensions": [
+      {
+        "base": "energia",
+        "power": 1
+      },
+      {
+        "base": "corriente",
+        "power": -2
+      }
+    ],
+    "URI": "Inductancia"
+  },
+  {
+    "name": "flujo magnetico",
+    "dimensions": [
+      {
+        "base": "potencial electrico",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": 1
+      }
+    ],
+    "URI": "Flujo_magnetico"
+  },
+  {
+    "name": "reluctancia",
+    "dimensions": [],
+    "URI": "Reluctancia_magnetica"
+  },
+  {
+    "name": "Fuerza magnetomotriz",
+    "dimensions": [
+      {
+        "base": "reluctancia",
+        "power": 1
+      },
+      {
+        "base": "magnetic flux",
+        "power": -2
+      }
+    ],
+    "URI": "Fuerza_magnetomotriz"
+  },
+  {
+    "name": "campo magnetico",
+    "dimensions": [
+      {
+        "base": "corriente",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": -1
+      }
+    ],
+    "URI": "Campo_magnetico"
+  },
+  {
+    "name": "irradiancia",
+    "dimensions": [
+      {
+        "base": "potencia",
+        "power": 1
+      },
+      {
+        "base": "longitud",
+        "power": -2
+      }
+    ],
+    "URI": "Irradiancia"
+  },
+  {
+    "name": "dosis absorvida de radiacion",
+    "dimensions": [
+      {
+        "base": "energia",
+        "power": 1
+      },
+      {
+        "base": "masa",
+        "power": -1
+      }
+    ],
+    "URI": "Dosis_absorvida"
+  },
+  {
+    "name": "radioactividad",
+    "dimensions": [
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Radiactividad"
+  },
+  {
+    "name": "exposicion a la radiacion",
+    "dimensions": [
+      {
+        "base": "carga",
+        "power": 1
+      },
+      {
+        "base": "masa",
+        "power": -1
+      }
+    ],
+    "URI": "Exposicion_(radiacion)"
+  },
+  {
+    "name": "radiacion",
+    "dimensions": [
+      {
+        "base": "dosis absorvida de radiacion",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Radiacion"
+  },
+  {
+    "name": "tasa de transferencia de datos",
+    "dimensions": [
+      {
+        "base": "memoria",
+        "power": 1
+      },
+      {
+        "base": "tiempo",
+        "power": -1
+      }
+    ],
+    "URI": "Tasa_de_bits"
+  }
+]
